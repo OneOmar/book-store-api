@@ -1,6 +1,6 @@
 package com.omardev.bookstore.repositories;
 
-import com.omardev.bookstore.entities.Author;
+import com.omardev.bookstore.models.Author;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

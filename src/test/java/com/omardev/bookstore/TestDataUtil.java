@@ -1,7 +1,7 @@
 package com.omardev.bookstore;
 
 
-import com.omardev.bookstore.entities.Author;
+import com.omardev.bookstore.models.Author;
 
 public final class TestDataUtil {
     private TestDataUtil() {

@@ -1,4 +1,4 @@
-package com.omardev.bookstore.entities;
+package com.omardev.bookstore.models;
 
 import jakarta.persistence.*;
 import lombok.*;

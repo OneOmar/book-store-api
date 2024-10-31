@@ -1,6 +1,6 @@
 package com.omardev.bookstore.services;
 
-import com.omardev.bookstore.entities.Author;
+import com.omardev.bookstore.models.Author;
 import com.omardev.bookstore.repositories.AuthorRepository;
 import org.springframework.stereotype.Service;
 

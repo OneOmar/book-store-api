@@ -1,6 +1,6 @@
 package com.omardev.bookstore.services;
 
-import com.omardev.bookstore.entities.Book;
+import com.omardev.bookstore.models.Book;
 import com.omardev.bookstore.repositories.BookRepository;
 import com.omardev.bookstore.utils.ISBNGenerator;
 import org.springframework.data.domain.Page;

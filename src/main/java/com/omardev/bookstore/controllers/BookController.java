@@ -1,6 +1,6 @@
 package com.omardev.bookstore.controllers;
 
-import com.omardev.bookstore.entities.Book;
+import com.omardev.bookstore.models.Book;
 import com.omardev.bookstore.services.BookService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

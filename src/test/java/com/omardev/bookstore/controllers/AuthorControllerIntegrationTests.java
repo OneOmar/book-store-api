@@ -2,7 +2,7 @@ package com.omardev.bookstore.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.omardev.bookstore.TestDataUtil;
-import com.omardev.bookstore.entities.Author;
+import com.omardev.bookstore.models.Author;
 import com.omardev.bookstore.services.AuthorService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

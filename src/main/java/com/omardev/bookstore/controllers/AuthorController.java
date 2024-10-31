@@ -1,6 +1,6 @@
 package com.omardev.bookstore.controllers;
 
-import com.omardev.bookstore.entities.Author;
+import com.omardev.bookstore.models.Author;
 import com.omardev.bookstore.services.AuthorService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
