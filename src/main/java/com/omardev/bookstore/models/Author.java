@@ -3,6 +3,7 @@ package com.omardev.bookstore.models;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -33,9 +34,9 @@ public class Author {
      * CascadeType.ALL: Any operations on the Author will propagate to the related Books.
      * orphanRemoval = true: Ensures that any Book entity removed from this list
      *                       will be automatically deleted from the database.
+     * FetchType.LAZY: Improves performance by loading the books only when accessed.
      */
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     @JoinColumn(name = "author_id")
-    private List<Book> books;
+    private List<Book> books = new ArrayList<>(); // Initialize to avoid null
 }
-
